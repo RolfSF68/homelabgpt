@@ -36,7 +36,8 @@ Emellett fontos szempont volt, hogy az álláspályázatok során a munkáltató
 
 ## 🔍 Felhasznált technológiák részletesebb ismertetése
 
-- **Saját domain:** 
+- **Saját publikus és privát domain:** Namecheap-en regisztráltam saját domain-t, amit utána a Cloudflare nameserverre költöztettem.
+- **SSH biztonságossá tétele**: Legyen timeout, jelszó helyett SSH key használata, lehetőség szerint root user tiltása SSH-n.
 - **Webproxy beállítása:** Nginx Proxy Manager konténerrel több aldomain kezelése, SSL automatizálás Cloudflare-rel.
 - **Monitorozás:** Zabbix hostokhoz grafikonok, riasztások, host discovery, Ansible-lel frissítve.
 - **Backup rendszer:** Proxmox mentések beállítása Proxmox Backup Server + snapshot stratégia, tesztelt restore-okkal.
