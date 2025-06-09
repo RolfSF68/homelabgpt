@@ -1,4 +1,4 @@
-![kép](https://github.com/user-attachments/assets/ef9a5781-1872-4bb6-9933-77cbfd524f54)# 🏡 Homelabom rövid bemutatása
+# 🏡 Homelabom rövid bemutatása
 
 ## Bemutatkozás
 Ez a projekt egy önállóan kialakított homelabot mutat be, amelynek célja egy vállalati környezet modellezése.
@@ -75,6 +75,10 @@ Emellett fontos szempont volt, hogy az álláspályázatok során a munkáltató
 
 - Proxmox Backup Server mentések
 <img src="https://github.com/user-attachments/assets/d700185b-89c6-47a2-ada7-5a3d8ed707bd" alt="Kép leírása" width="200"/>
+
+- Homarr dashboard
+<img src="https://github.com/user-attachments/assets/ef9a5781-1872-4bb6-9933-77cbfd524f54" alt="Kép leírása" width="200"/>
+
 
 - Nginx Proxy Manager és Cloudflare beállítások
 - Nextcloud bejelentkezési és fájlkezelő felülete
