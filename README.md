@@ -79,10 +79,12 @@ Emellett fontos szempont volt, hogy az álláspályázatok során a munkáltató
 - Homarr dashboard
 <img src="https://github.com/user-attachments/assets/ef9a5781-1872-4bb6-9933-77cbfd524f54" alt="Kép leírása" width="200"/>
 
-- Nginx Proxy Manager
+- Nginx Proxy Manager-ből egy részlet a proxy hosts-ról
 <img src="https://github.com/user-attachments/assets/0ef39cc8-e57b-450f-8bc1-836287ca640f" alt="Kép leírása" width="200"/>
 
-- Nextcloud bejelentkezési és fájlkezelő felülete
+- Pi-hole
+<img src="https://github.com/user-attachments/assets/688a9e5b-2ae9-4ff7-80dc-de0ca6e5379f" alt="Kép leírása" width="200"/>
+
 
 ---
 
