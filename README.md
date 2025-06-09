@@ -70,25 +70,5 @@ A projekt mappában található `screenshots/` könyvtárban elérhetőek képer
 
 ---
 
-## 🧭 Használat álláskereséshez
-
-1. A GitHub profilodon vagy LinkedIn-en linkeld be a repót.
-2. Interjún mutasd be a topológiát, az automatizálási és monitorozási megoldásokat.
-3. Emeld ki, hogy az Ansible, Zabbix, Proxmox Backup Server hármasával hogyan oldod meg az üzemeltetési feladatokat.
-
----
-
-## 📫 Kapcsolat
-
-- GitHub: [github.com/RolfSF68/homelab](https://github.com/RolfSF68/homelab)  
-- E-mail: *itt az e-mail címed*  
-- LinkedIn: *itt a LinkedIn profilod linkje*
-
----
-
-*Ez a projekt bizonyítéka annak, hogy komolyan veszem a szakmai fejlődést, és képes vagyok gyakorlati tudással támogatni egy IT csapatot.*
-
----
-
 **Köszönöm, hogy megnézted!**
 
