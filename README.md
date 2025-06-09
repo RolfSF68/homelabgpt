@@ -11,7 +11,7 @@ Emellett fontos szempont volt, hogy az álláspályázatok során a munkáltató
 
 ## 🛠️ Felhasznált technológiák általános áttekintése
 
-| Terület              | Használt eszközök, projektek                       |
+| Terület              | Használt eszközök                       |
 |----------------------|---------------------------------------------------|
 | **OS** | CentOS 9 Stream, Ubuntu 22.04 desktop, Ubuntu 22.04 server, Windows 11, Windows Server 2019      |   
 | **Virtualizáció**     | Proxmox VE (2 gépen), LXC, VM, Template + Cloud init  |
