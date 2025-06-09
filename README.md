@@ -74,22 +74,22 @@ Emellett fontos szempont volt, hogy az álláspályázatok során a munkáltató
 <img src="https://github.com/user-attachments/assets/9b5178a3-e987-42bf-8c01-e10b00101871" alt="Kép leírása" width="700"/>
 
 - Proxmox interfész VM/LXC listával
-<img src="https://github.com/user-attachments/assets/cd04c2e9-d495-436a-97f6-c8063a7fed68" alt="Kép leírása" width="400"/>
+<img src="https://github.com/user-attachments/assets/cd04c2e9-d495-436a-97f6-c8063a7fed68" alt="Kép leírása" width="700"/>
 
 - Proxmox Backup Server mentések
-<img src="https://github.com/user-attachments/assets/d700185b-89c6-47a2-ada7-5a3d8ed707bd" alt="Kép leírása" width="400"/>
+<img src="https://github.com/user-attachments/assets/d700185b-89c6-47a2-ada7-5a3d8ed707bd" alt="Kép leírása" width="700"/>
 
 - Homarr dashboard
-<img src="https://github.com/user-attachments/assets/ef9a5781-1872-4bb6-9933-77cbfd524f54" alt="Kép leírása" width="400"/>
+<img src="https://github.com/user-attachments/assets/ef9a5781-1872-4bb6-9933-77cbfd524f54" alt="Kép leírása" width="700"/>
 
 - Nginx Proxy Manager-ből egy részlet a proxy hosts-ról
-<img src="https://github.com/user-attachments/assets/0ef39cc8-e57b-450f-8bc1-836287ca640f" alt="Kép leírása" width="400"/>
+<img src="https://github.com/user-attachments/assets/0ef39cc8-e57b-450f-8bc1-836287ca640f" alt="Kép leírása" width="700"/>
 
 - Pi-hole
-<img src="https://github.com/user-attachments/assets/688a9e5b-2ae9-4ff7-80dc-de0ca6e5379f" alt="Kép leírása" width="400"/>
+<img src="https://github.com/user-attachments/assets/688a9e5b-2ae9-4ff7-80dc-de0ca6e5379f" alt="Kép leírása" width="700"/>
 
 - Részlet a BIND9 db.otthoni.local zónafájljáról
-<img src="https://github.com/user-attachments/assets/f9ab28e9-3c35-4b7e-b2ea-a1fdb786f6c7" alt="Kép leírása" width="400"/>
+<img src="https://github.com/user-attachments/assets/f9ab28e9-3c35-4b7e-b2ea-a1fdb786f6c7" alt="Kép leírása" width="700"/>
 
 ---
 **Köszönöm, hogy megnézted!**
