@@ -14,7 +14,7 @@ Emellett fontos szempont volt, hogy az álláspályázatok során a munkáltató
 | Terület              | Használt eszközök, projektek                       |
 |----------------------|---------------------------------------------------|
 | **OS** | CentOS 9 Stream, Ubuntu 22.04 desktop, Ubuntu 22.04 server, Windows 11, Windows Server 2019      |   
-| **Virtualizáció**     | Proxmox VE (2 gépen), LXC, VM-ek  |
+| **Virtualizáció**     | Proxmox VE (2 gépen), LXC, VM, Template + Cloud init  |
 | **Tűzfal-router** | pfSense   |
 | **DHCP** | ISC-KEA   |   
 | **DNS** | DNS (Bind9) + Namecheap + Cloudflare|
@@ -36,7 +36,7 @@ Emellett fontos szempont volt, hogy az álláspályázatok során a munkáltató
 
 ## 🔍 Felhasznált technológiák részletesebb ismertetése
 
-- **DNS szerver telepítése:** Bind9 használata belső hálózati névfeloldásra, automatizálva Ansible-lel.
+- **DNS szerver telepítése:** 
 - **Webproxy beállítása:** Nginx Proxy Manager konténerrel több aldomain kezelése, SSL automatizálás Cloudflare-rel.
 - **Monitorozás:** Zabbix hostokhoz grafikonok, riasztások, host discovery, Ansible-lel frissítve.
 - **Backup rendszer:** Proxmox mentések beállítása Proxmox Backup Server + snapshot stratégia, tesztelt restore-okkal.
