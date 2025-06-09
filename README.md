@@ -18,7 +18,8 @@ Emellett fontos szempont volt, hogy az álláspályázatok során a munkáltató
 | **Tűzfal-router** | pfSense   |
 | **DHCP** | ISC-KEA   |   
 | **DNS** | DNS (Bind9) + Namecheap + Cloudflare|
-| **Távoli elérés**     | Tailscale, Wireguard, Openvpn, VNC, RDP, SSH, Guacamole |
+| **VPN** | Tailscale, Wireguard, Openvpn|
+| **Távoli elérés**     | , VNC, RDP, SSH, Guacamole |
 | **Reverse proxy** | Nginx Proxy Manager               |
 | **Monitorozás**       | Zabbix|
 | **Automatizálás**     | Ansible+Semaphore, Cron+Cronicle       |
