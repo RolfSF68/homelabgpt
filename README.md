@@ -19,7 +19,7 @@ Emellett fontos szempont volt, hogy az álláspályázatok során a munkáltató
 | **DHCP** | ISC-KEA   |   
 | **DNS** | DNS (Bind9) + Namecheap + Cloudflare|
 | **VPN** | Tailscale, Wireguard, Openvpn|
-| **Távoli elérés**     | SSH, RDP (Guacamole) |
+| **Távoli elérés**     | SSH (Termius), RDP (Guacamole) |
 | **Reverse proxy** | Nginx Proxy Manager               |
 | **Monitorozás**       | Zabbix|
 | **Automatizálás**     | Ansible+Semaphore, Cron+Cronicle       |
@@ -38,12 +38,25 @@ Emellett fontos szempont volt, hogy az álláspályázatok során a munkáltató
 
 - **Pfsense:** Futtatok rajta **DHCP szervert**, **NTP szervert**, **Wireguardot**, **OpenVPN-t**, beállítottam rajta **DDNS-t**.
 - **Publikus és privát domain névoldásának mechanizmusa:** Én a **Namecheap-en** regisztráltam saját domain-t, amit a **Cloudflare** nameserverre költöztettem. Publikusan nem tettem elérhetővé szolgáltatásokat. Az **Nginx Proxy Manager** segítségével a szolgáltatásaimat nevükön érem el, és nem kell IP címeket portszámokkal megjegyeznem. **SSL tanúsítványt** is szereztem az Nginix Proxy Manager-en futó Let's Encrypt szolgáltatással, ehhez jól jött a korábban regisztrált publikus domain, a **DNS 01 challanger + wildcard** megvalósításához. A privát domainem (otthoni.local) a **Bind9** DNS szerverem oldja fel, amit nem tud feloldani, a 8.8.8.8-ra forwardolja. **DNS override-ot** is alkalmazok annak érdekében, hogy ha a homelabommal egy hálózaton vagyok, akkor példáu a nextcloud.trkrolf.com kérést ne a publikus DNS szerverek oldják fel, hanem az én privát DNS szerverem. Ennek érdekében a *.trkrolf.com-ot a lokális DNS szerverem ip címére irányítom.
-- **SSH biztonságossá tétele**: **Timeout** beállítása, jelszó helyett **SSH key** használata, lehetőség szerint **root user tiltása** SSH-n.
+- **VPN:** A távoli elérésre egy ideig Tailscale-t használtam, kipróbáltam az OpenVPN-t is, de végül aktívan a Wiregard használata mellett döntöttem. Így például telefon kényelmesen elérem az otthoni hálózatomat, vagy a full tunnel segítségével az otthoni Pi-hole DNS szűrőmet használhatom a reklámok ellen.
+- **Távoli elérés:** Guacamole-t használok, aminek előnye, hogy egy böngészőablakban elérhetek több gépet.
 - **Monitorozás:** Zabbix Agent beállítása Linux és Windows gépre. Csináltam pár alap **problem triggerelést**, például 1 percig nem pingelhető egy gép, szabad tárhely egy szint alá csökken, CPU használtal egy érték fölő megy. Ugyanezeket riasztásban is megvalósítottam, **email értesítést** küldve. Saját **dashboard** létrehozása.
+- **Ansible automation:** Használom CLI-ből és Semaphroe Web UI-ból egyaránt. Playbook segítségével VM és LXC frissítéseket automatizálom, közös usereket hozok létre, közös konfig fájlokat szerkesztek (pl.: NTP szerver megadása), időzóna beállítása.
 - **Rendszer backup:** A **Clonezillával** mentem el a Proxmox partíciót blokkszinten. Egy Proxmoxon virtualizált **Proxmox Backup Serverre** mentem a másik fizikai gépen futó VM és LXC példányokat.
 - **Személyes fájlok backupja/szinkronizációja:**  **Nextcloud-ot** használok a fájlok megosztására a laptopommal. A fényképeimet a telefonomról egyirányú szinkronizációval mentem a homelabomra **FolderSync-el**, ugyanígy laptopomon erre a **FreeFileSync-et** használom. 
-- **Ansible automation:** Használom CLI-ből és Semaphroe Web UI-ból egyaránt. Playbook segítségével VM és LXC frissítéseket automatizálom, közös usereket hozok létre, közös konfig fájlokat szerkesztek (pl.: NTP szerver megadása), időzóna beállítása. 
-- **Reklámszűrés:** Pi-hole-t használok böngészéshez, hogy a reklálmokat DNS kérés szintjén szűrje, upstream szervere a BIND9 szerverem. 
+- **Reklámszűrés:** Pi-hole-t használok böngészéshez, hogy a reklálmokat DNS kérés szintjén szűrje, upstream szervere a BIND9 szerverem.
+- **APT cache proxy:** Hajnali 3-ra időzítettem az Ansible által vezényelt VM és LXC updatelést, naponta. Feleslegesnek éreztem, hogy sokszor ugyanazt a frissítést, tegyük fel 10 alkalommal az internetről szedje le. Elég lenne 1-szer leszedni, és egy gép továbbosztaná ezt annak, akinek kell a kérdéses csomag. A cache proxy segítségével elérem, hogy cacheli a letöltött csomagokat.
+- **Dashboard:** A sok szolgáltatás közötti válogatás kezdett kényelmetlen lenni, így dashboard-ra rendezve könnyebb az indításuk. Erre én a Homarr dashboard szolgáltatást használom.
+- **Radius, LDAP:** FreeRadius-al beállítottam, hogy rajta keresztül a Pfsense GUI-ra be tudjak jelentkezni. Természetesen van lokális userem, ha a radius szerver nem üzemelne, akkor is be tudjak jelentkezni. A lokális user és a radius user felhasználóneve és jelszava azonos, hogy a usernek ne kelljen tudnia, hogy most éppen a radius szerveren keresztül vagy a lokális useren keresztül tud-e belépni. Phpmyadmidn-t telepítettem, hogy kényelmesebben lássam az adatbázisoakt.
+- **SSH biztonságossá tétele**: **Timeout** beállítása, jelszó helyett **SSH key** használata, lehetőség szerint **root user tiltása** SSH-n.
+
+
+
+
+| **Password management** | Vaultwarden        |
+| **PXE boot** | iVentoy        |
+| **IDS/IPS** | CrowdSec        |
+
 
 ---
 
