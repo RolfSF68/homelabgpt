@@ -17,9 +17,9 @@ Emellett fontos szempont volt, hogy az álláspályázatok során a munkáltató
 | **Virtualizáció**     | Proxmox VE (2 gépen), LXC, VM-ek      |
 | **Tűzfal-router** | pfSense   |
 | **DHCP** | ISC-KEA   |   
-| **DHCP** | DNS (Bind9)|
+| **DNS** | DNS (Bind9) + Namecheap + Cloudflare|
 | **Távoli elérés**     | Tailscale, Wireguard, Openvpn, VNC, RDP, SSH, Guacamole |
-| **Webszolgáltatások** | Nginx Proxy Manager, Cloudflare, Namecheap               |
+| **Reverse proxy** | Nginx Proxy Manager               |
 | **Monitorozás**       | Zabbix|
 | **Automatizálás**     | Ansible+Semaphore, Cron+Cronicle       |
 | **Biztonság és mentés**| Proxmox Backup Server, Clonezilla, Rclone, Nextcloud|
