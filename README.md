@@ -40,18 +40,6 @@ Emellett fontos szempont volt, hogy az álláspályázatok során a munkáltató
 
 ---
 
-## 🖼️ Projekt képernyőképek (screenshots)
-
-A projekt mappában található `screenshots/` könyvtárban elérhetőek képernyőképek, többek között:
-
-- Zabbix dashboard hostokkal és riasztásokkal
-- Ansible futtatások, telepítési lépések
-- Proxmox interfész VM/LXC listával
-- Nginx Proxy Manager és Cloudflare beállítások
-- Nextcloud bejelentkezési és fájlkezelő felülete
-
----
-
 ## 🔮 Jövőbeli tervek
 
 - Konténer-orchesztráció (Docker Swarm vagy Kubernetes tanulása, bevezetése)
@@ -61,12 +49,15 @@ A projekt mappában található `screenshots/` könyvtárban elérhetőek képer
 
 ---
 
-## 🌟 Mit mutatok meg ezzel a projekttel?
+## 🖼️ Projekt képernyőképek (screenshots)
 
-- Valós, komplex rendszert építettem fel – nem csak “Hello World”, hanem teljes IP-alapú belső hálózat, szolgáltatások és automatizált üzemeltetés.
-- Profi GitHub struktúra, részletes dokumentáció, technológiai háttér és jövőbeli célkitűzések.
-- Széleskörű technológiai tapasztalat: virtualizáció, hálózat, tárolás, automatizálás, monitorozás, biztonság.
-- Proaktív tanulási attitűd, folyamatos fejlesztés.
+A projekt mappában található `screenshots/` könyvtárban elérhetőek képernyőképek, többek között:
+
+- Zabbix dashboard hostokkal és riasztásokkal
+- Ansible futtatások, telepítési lépések
+- Proxmox interfész VM/LXC listával
+- Nginx Proxy Manager és Cloudflare beállítások
+- Nextcloud bejelentkezési és fájlkezelő felülete
 
 ---
 
