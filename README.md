@@ -72,9 +72,9 @@ Emellett fontos szempont volt, hogy az álláspályázatok során a munkáltató
 
 - Proxmox interfész VM/LXC listával
 <img src="https://github.com/user-attachments/assets/cd04c2e9-d495-436a-97f6-c8063a7fed68" alt="Kép leírása" width="200"/>
+
 - Proxmox Backup Server mentések
 <img src="https://github.com/user-attachments/assets/d700185b-89c6-47a2-ada7-5a3d8ed707bd" alt="Kép leírása" width="200"/>
-
 
 - Nginx Proxy Manager és Cloudflare beállítások
 - Nextcloud bejelentkezési és fájlkezelő felülete
