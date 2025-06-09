@@ -71,7 +71,7 @@ Emellett fontos szempont volt, hogy az álláspályázatok során a munkáltató
 ## 🖼️ Projekt képernyőképek
 
 - Proxmox interfész VM/LXC listával
-<img src="https://github.com/user-attachments/assets/dc74b6b3-f6ba-4043-96c0-ea0832ec8c84" alt="Kép leírása" width="100"/>
+<img src="![kép](https://github.com/user-attachments/assets/cd04c2e9-d495-436a-97f6-c8063a7fed68)" alt="Kép leírása" width="200"/>
 
 
 - Nginx Proxy Manager és Cloudflare beállítások
