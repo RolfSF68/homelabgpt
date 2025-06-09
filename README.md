@@ -16,12 +16,17 @@ Emellett fontos szempont volt, hogy az álláspályázatok során a munkáltató
 | **Virtualizáció**     | Proxmox VE (2 gépen), LXC, VM-ek      |
 | **Hálózat és tűzfal** | pfSense, DHCP (ISC-KEA), DNS (Bind9)      |
 | **Távoli elérés**     | Tailscale, Wireguard, Openvpn, VNC, RDP, SSH, Guacamole |
-| **Webszolgáltatások** | Nginx Proxy Manager, Cloudflare,                |
+| **Webszolgáltatások** | Nginx Proxy Manager, Cloudflare, Namecheap               |
 | **Monitorozás**       | Zabbix|
 | **Automatizálás**     | Ansible+Semaphore, Cron+Cronicle       |
 | **Biztonság és mentés**| Proxmox Backup Server, Clonezilla, Rclone, Nextcloud|
 | **Reklámszűrés** | Pi-hole        |
+| **APT cache proxy** | APT-Cache-NG        |
 | **Dashboard** | Homarr        |
+| **Radius, LDAP** | FreeRADIUS, FreeIPA |
+| **Password management** | Vaultwarden        |
+| **PXE boot** | iVentoy        |
+| **IDS/IPS** | CrowdSec        |
 
 ---
 
