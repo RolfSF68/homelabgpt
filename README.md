@@ -71,7 +71,7 @@ Emellett fontos szempont volt, hogy az álláspályázatok során a munkáltató
 ## 🖼️ Projekt képernyőképek
 
 - Hálózati topológiám
-<img src="https://github.com/user-attachments/assets/9b5178a3-e987-42bf-8c01-e10b00101871" alt="Kép leírása" width="400"/>
+<img src="https://github.com/user-attachments/assets/9b5178a3-e987-42bf-8c01-e10b00101871" alt="Kép leírása" width="600"/>
 
 - Proxmox interfész VM/LXC listával
 <img src="https://github.com/user-attachments/assets/cd04c2e9-d495-436a-97f6-c8063a7fed68" alt="Kép leírása" width="400"/>
