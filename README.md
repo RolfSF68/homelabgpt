@@ -4,7 +4,7 @@
 Ez a projekt egy önállóan kialakított homelabot mutat be, amelynek célja egy vállalati környezet modellezése.
 
 > 🎯 **Célom**:
-Az elméleti tudásom mellett gyakorlati tapasztalat szerzése, új technológiák kipróbálása és megismerése. A technológiák kiválasztásánál figyelembe vettem a jelenlegi munkaerőpiaci trendeket, de az erre rendelkezésemre álló büdzsét is.
+Az elméleti tudásom mellett gyakorlati tapasztalat szerzése, új technológiák kipróbálása és megismerése. A technológiák kiválasztásakor figyelembe vettem a jelenlegi munkaerőpiaci trendeket, de az erre rendelkezésemre álló büdzsét is.
 Emellett fontos szempont volt, hogy az álláspályázatok során a munkáltatók könnyebben megismerhessék a tudásomat, hogy én vagyok-e a keresett személy, segítve így a kiválasztási folyamatot.
 
 ---
@@ -92,6 +92,5 @@ Emellett fontos szempont volt, hogy az álláspályázatok során a munkáltató
 <img src="https://github.com/user-attachments/assets/f9ab28e9-3c35-4b7e-b2ea-a1fdb786f6c7" alt="Kép leírása" width="400"/>
 
 ---
-
 **Köszönöm, hogy megnézted!**
 
