@@ -79,8 +79,9 @@ Emellett fontos szempont volt, hogy az álláspályázatok során a munkáltató
 - Homarr dashboard
 <img src="https://github.com/user-attachments/assets/ef9a5781-1872-4bb6-9933-77cbfd524f54" alt="Kép leírása" width="200"/>
 
+- Nginx Proxy Manager
+<img src="https://github.com/user-attachments/assets/0ef39cc8-e57b-450f-8bc1-836287ca640f" alt="Kép leírása" width="200"/>
 
-- Nginx Proxy Manager és Cloudflare beállítások
 - Nextcloud bejelentkezési és fájlkezelő felülete
 
 ---
