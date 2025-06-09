@@ -1,4 +1,4 @@
-# 🏡 Homelabom rövid áttekintése
+# 🏡 Homelabom rövid bemutatása
 
 ## Bemutatkozás
 Ez a projekt egy önállóan kialakított homelabot mutat be, amelynek célja egy vállalati környezet modellezése.
