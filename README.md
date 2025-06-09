@@ -41,8 +41,8 @@ Emellett fontos szempont volt, hogy az álláspályázatok során a munkáltató
 - **Monitorozás:** Zabbix Agent beállítása Linux és Windows gépre. Csináltam pár alap **problem triggerelést**, például 1 percig nem pingelhető egy gép, szabad tárhely egy szint alá csökken, CPU használtal egy érték fölő megy. Ugyanezeket riasztásban is megvalósítottam, **email értesítést** küldve. Saját **dashboard** létrehozása.
 - **Rendszer backup** A **Clonezillával** mentem el a Proxmox partíciót blokkszinten. Egy Proxmoxon virtualizált **Proxmox Backup Serverre** mentem a másik fizikai gépen futó VM és LXC példányokat.
 - **Személyes fájlok backupja/szinkronizációja:**  **Nextcloud-ot** használok a fájlok megosztására a laptopommal. A fényképeimet a telefonomról egyirányú szinkronizációval mentem a homelabomra **FolderSync-el**, ugyanígy laptopomon erre a **FreeFileSync-et** használom. 
-- **Ansible automation:** infrastruktúra kiépítése és frissítése 10+ VM-en és LXC-n egyetlen playbookkal.
-- **Reklámszűrés:**
+- **Ansible automation:** Használom CLI-ből és Semaphroe Web UI-ból egyaránt. Playbook segítségével VM és LXC frissítéseket automatizálom, közös usereket hozok létre, közös konfig fájlokat szerkesztek (pl.: NTP szerver megadása), időzóna beállítása. 
+- **Reklámszűrés:** Pi-hole-t használok böngészéshez, hogy a reklálmokat DNS kérés szintjén szűrje, upstream szervere a BIND9 szerverem. 
 
 ---
 
