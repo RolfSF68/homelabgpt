@@ -15,7 +15,9 @@ Emellett fontos szempont volt, hogy az álláspályázatok során a munkáltató
 |----------------------|---------------------------------------------------|
 | **OS** | CentOS 9 Stream, Ubuntu 22.04 desktop, Ubuntu 22.04 server, Windows 11, Windows Server 2019      |   
 | **Virtualizáció**     | Proxmox VE (2 gépen), LXC, VM-ek      |
-| **Hálózat és tűzfal** | pfSense, DHCP (ISC-KEA), DNS (Bind9)      |
+| **Tűzfal-router** | pfSense   |
+| **DHCP** | ISC-KEA   |   
+| **DHCP** | DNS (Bind9)|
 | **Távoli elérés**     | Tailscale, Wireguard, Openvpn, VNC, RDP, SSH, Guacamole |
 | **Webszolgáltatások** | Nginx Proxy Manager, Cloudflare, Namecheap               |
 | **Monitorozás**       | Zabbix|
