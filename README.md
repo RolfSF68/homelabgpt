@@ -1,9 +1,9 @@
 # 🏡 Homelabom rövid áttekintése
 
 ## Bemutatkozás
-Ez a projekt egy önállóan kialakított homelabot mutat be, amelynek célja az elméleti ismeretek valós környezetben történő kipróbálása, elmélyítése, új technológiák megismerése, miközben vállalati környezetet modellezek.
+Ez a projekt egy önállóan kialakított homelabot mutat be, amelynek célja egy vállalati környezet modellezése.
 
-> 🎯 **Célom**: fejleszteni szakmai kompetenciáimat és bemutatni, hogy IT rendszergazdai vagy DevOps gyakornoki pozícióban azonnal hozzá tudok járulni csapatodhoz.
+> 🎯 **Célom**: Célom az elméleti tudásom mellett a gyakorlati ismeretek mélyítése, új technológiák kipróbálása és megismerése. A felhasznált technológiák és szolgáltatások kiválogatásánál a fő tényezők között említeném a trendeket, hogy mennyire népszerűek most a munkáltatók körében, és a büdzsé. További célom volt, hogy az álláspályázatoknál is előnyömre válhat, ha a munkáltatónak betekintést engedek, hogy milyen tudásom van, így könnyebben tudják eldönteni, hogy engem keresnek-e.
 
 ---
 
