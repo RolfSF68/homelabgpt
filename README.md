@@ -9,17 +9,17 @@ Emellett fontos szempont volt, hogy az álláspályázatok során a munkáltató
 
 ---
 
-## 🛠️ Alap technológiák és konfigurációk
+## 🛠️ Felhasznált technológiák
 
 | Terület              | Használt eszközök, projektek                       |
 |----------------------|---------------------------------------------------|
-| **Virtualizáció**     | Proxmox VE (2 gépes cluster), LXC, KVM VM-ek      |
-| **Hálózat és tűzfal** | pfSense/OPNsense, VLAN-ok, DHCP, DNS (Bind9)      |
-| **Webszolgáltatások** | Nginx Proxy Manager + Cloudflare DNS               |
-| **Monitorozás**       | Zabbix – testreszabott host metric-ek, grafikonok|
-| **Automatizálás**     | Ansible playbook-ok: telepítés, konfigurálás      |
-| **Biztonság és mentés**| Fail2ban, Proxmox Backup Server, snapshot kezelések|
-| **Tárhely, fájlkezelés** | Nextcloud LXC konténerrel                        |
+| **Virtualizáció**     | Proxmox VE (2 gépen), LXC, VM-ek      |
+| **Hálózat és tűzfal** | pfSense, DHCP (ISC-KEA), DNS (Bind9)      |
+| **Webszolgáltatások** | Nginx Proxy Manager, Cloudflare,                |
+| **Monitorozás**       | Zabbix|
+| **Automatizálás**     | Ansible, Cron      |
+| **Biztonság és mentés**| Proxmox Backup Server, Clonezilla, Rclone, Nextcloud|
+| **Tárhely, fájlkezelés** |                        |
 
 ---
 
