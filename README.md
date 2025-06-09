@@ -2,7 +2,6 @@
 
 ## Bemutatkozás
 Ez a projekt egy önállóan kialakított homelabot mutat be, amelynek célja az elméleti ismeretek valós környezetben történő kipróbálása, elmélyítése, új technológiák megismerése, miközben vállalati környezetet modellezek.
-Ez a projekt egy önállóan kialakított homelabot mutat be, amelynek célja az elméleti ismeretek valós környezetben történő kipróbálása és elmélyítése, új technológiák megismerése, miközben valós vállalati környezetet modellezek.
 
 > 🎯 **Célom**: fejleszteni szakmai kompetenciáimat és bemutatni, hogy IT rendszergazdai vagy DevOps gyakornoki pozícióban azonnal hozzá tudok járulni csapatodhoz.
 
