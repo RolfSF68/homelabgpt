@@ -13,6 +13,7 @@ Emellett fontos szempont volt, hogy az álláspályázatok során a munkáltató
 
 | Terület              | Használt eszközök, projektek                       |
 |----------------------|---------------------------------------------------|
+| **OS** | CentOS 9 Stream, Ubuntu 22.04 desktop, Ubuntu 22.04 server, Windows 11, Windows Server 2019      |   
 | **Virtualizáció**     | Proxmox VE (2 gépen), LXC, VM-ek      |
 | **Hálózat és tűzfal** | pfSense, DHCP (ISC-KEA), DNS (Bind9)      |
 | **Távoli elérés**     | Tailscale, Wireguard, Openvpn, VNC, RDP, SSH, Guacamole |
@@ -42,10 +43,9 @@ Emellett fontos szempont volt, hogy az álláspályázatok során a munkáltató
 
 ## 🔮 Jövőbeli tervek
 
-- Konténer-orchesztráció (Docker Swarm vagy Kubernetes tanulása, bevezetése)
-- Enterprise hálózatépítés (Windows Server + Active Directory + Samba integráció)
-- Jogosultság és naplózás fejlesztése (többrétegű jogosultságkezelés, tűzfal-logok feldolgozása)
-- Webes monitoring dashboard fejlesztése (pl. Grafana alapú vizualizáció)
+- Nyitás Windows irányba (Windows Server + Active Directory)
+- Monitorozás továbbfejlesztése (Grafana + Prometheus)
+- Cloud computing (AWS és Azure)
 
 ---
 
