@@ -49,6 +49,8 @@ Emellett fontos szempont volt, hogy az álláspályázatok során a munkáltató
 - Nyitás Windows irányba (Windows Server + Active Directory)
 - Monitorozás továbbfejlesztése (Grafana + Prometheus)
 - Cloud computing (AWS és Azure)
+- Három darab 2,5"-os SSD és egy Lenovo M920q Tiny PC beszerzése van tervben, amelyre Proxmoxot telepítek, hogy a meglévő gépeimmel együtt háromtagú klasztert alakíthassak ki. A célom, hogy a három SSD-t Ceph-be integráljam.
+- KVM over IP hasznos lenne, ám az olcsóbb alternatívája, a PiKVM is igen költséges, ha készen veszi az ember, így én megamtól építeném meg. Venni szeretnék használtan RPI 4-et, amit megosztana a három gép között egy USB switch és HDMI switch. Az olcsóbb switch-ek csatornaváltása gombbal történik, én a gombot lecserélném egy ESP32-vel vezérelt tranzisztorra. Ehhez persze fontos, hogy a switch-ek könnyen szétszedhetőek legyenek, nagyobb roncsolás nélkül. Kicsit költségesebb, ha három RPI4-et veszek, minden géphez egyet, így nem kell USB switch és HDMI switch, és egyszerre mindhárom gép vezérelhető böngészőből, nem kell váltani köztük. 
 
 ---
 
