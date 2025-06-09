@@ -36,19 +36,19 @@ Emellett fontos szempont volt, hogy az álláspályázatok során a munkáltató
 
 ## 🔍 Felhasznált technológiák részletesebb ismertetése
 
-- **Saját publikus és privát domain:** Namecheap-en regisztráltam saját domain-t, amit utána a Cloudflare nameserverre költöztettem.
-- **SSH biztonságossá tétele**: Legyen timeout, jelszó helyett SSH key használata, lehetőség szerint root user tiltása SSH-n.
-- **Webproxy beállítása:** Nginx Proxy Manager konténerrel több aldomain kezelése, SSL automatizálás Cloudflare-rel.
-- **Monitorozás:** Zabbix hostokhoz grafikonok, riasztások, host discovery, Ansible-lel frissítve.
-- **Backup rendszer:** Proxmox mentések beállítása Proxmox Backup Server + snapshot stratégia, tesztelt restore-okkal.
+- **Publikus és privát domain névoldásának mechanizmusa:** Én a **Namecheap-en** regisztráltam saját domain-t, amit a **Cloudflare** nameserverre költöztettem. Publikusan nem tettem elérhetővé szolgáltatásokat. Az **Nginx Proxy Manager** segítségével a szolgáltatásaimat nevükön érem el, és nem kell IP címeket portszámokkal megjegyeznem. SSL tanúsítványt is szereztem az Nginix Proxy Manager-en futó Let's Encrypt szolgáltatással, ehhez jól jött a korábban regisztrált publikus domain, a DNS 01 challanger + wildcard megvalósításához. A privát domainem (otthoni.local) a **Bind9** DNS szerverem oldja fel, amit nem tud feloldani, a 8.8.8.8-ra forwardolja. 
+- **SSH biztonságossá tétele**: **Timeout** beállítása, jelszó helyett **SSH key** használata, lehetőség szerint **root user tiltása** SSH-n.
+- **Monitorozás:** Zabbix Agent beállítása Linux és Windows gépre. Csináltam pár alap **problem triggerelést**, például 1 percig nem pingelhető egy gép, szabad tárhely egy szint alá csökken, CPU használtal egy érték fölő megy. Ugyanezeket riasztásban is megvalósítottam, **email értesítést** küldve. Saját **dashboard** létrehozása.
+- **Backup rendszer:** Egy Proxmoxon virtualizált **Proxmox Backup Serverre** mentem a másik fizikai gépen futó VM és LXC példányokat. **Nextcloud-ot** használok a fájlok megosztására a laptopommal. A fényképeimet a telefonomról **FolderSync-el** backupolom a homelabomra, egyirányú szinkronizációval, ugyanígy laptopomon lévő dokumentumaimat a homelabomra **FreeFileSync-el** egyirányú szinkronizációval mentem.
 - **Ansible automation:** infrastruktúra kiépítése és frissítése 10+ VM-en és LXC-n egyetlen playbookkal.
+- **Reklámszűrés:**
 
 ---
 
-## 🔮 Jövőbeli tervek
+## 🔮 Jövőbeli tervek (folyamatosan bővöl)
 
 - **Nyitás Windows irányba** (Windows Server + Active Directory).
-- **Monitorozás továbbfejlesztése** (Grafana + Prometheus).
+- **Monitorozás továbbfejlesztése** Grafana + Prometheus megismerése. Zabbix-al elkezdtem ismerkedni, de az Udemy videót félbehagytam, ezt befejezni.
 - **Cloud computing elmélyítése** (AWS, Azure).
 - **Cloud storage** (Hetzned vagy Pcloud).
 - **Ceph:** Három darab 2,5"-os SSD és egy Lenovo M920q Tiny PC beszerzése van tervben, amelyre Proxmoxot telepítek, hogy a meglévő gépeimmel együtt háromtagú klasztert alakíthassak ki. A célom, hogy a három SSD-t Ceph-be integráljam.
