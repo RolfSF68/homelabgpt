@@ -1,57 +1,85 @@
-# Homelabom Proxmox alapon
+# 🏡 Homelab – Rolf szakmai portfólió
 
-Ez a homelab projekt azért jött létre, hogy gyakorlati úton mélyítsem rendszergazdai és hálózati ismereteimet. A folyamatos problémamegoldás lehetőséget ad új technológiák autodidakta elsajátítására és a tudásom elmélyítésére.
+## Bemutatkozás
+Ez a projekt bemutatja **valódi, munkaalapú homelab környezetemet**, ahol **gyakorlati tapasztalatot szereztem virtualizációban, hálózatépítésben, automatizálásban és monitorozásban** – mindezt saját kezűleg építve fel.
 
-## Projekt céljai
-
-### Megvalósított célok
-- Gyakorlati rendszergazdai és hálózati tudás fejlesztése.
-- Többféle operációs rendszer használata és ismerete:
-  - *CentOS 9 Stream*
-  - *Ubuntu 22.04* (desktop és server)
-  - *Windows 11* és *Windows Server 2019*
-- Virtualizációs tapasztalat megszerzése *Proxmox* környezetben, valamint korábbi ismeretek *XCP-ng* és *VMware* hypervisorokról.
-- Több gép központi vezérlése *Ansible* és *Semaphore* segítségével.
-- Távoli elérés biztosítása VPN, RDP és SSH megoldásokkal.
-- Privát és publikus domain névkezelés megvalósítása:
-  - Lokális DNS szerver *BIND9*-el
-  - DNS override *Cloudflare* és *Pi-hole* segítségével
-- Disaster recovery rendszerek bevezetése, mint például:
-  - *Nextcloud*
-  - *Clonezilla*
-  - *Proxmox Backup Server*
-- Egységes, központosított felhasználó- és jogosultságkezelés:
-  - *FreeIPA*
-  - *FreeRadius*
-
-### Megvalósításra váró célok
-- High Availability (HA) környezet kiépítése:
-  - 3 node-os *Proxmox* cluster létrehozása
-  - *Ceph* tároló 3x-os replikációval
-- Hardver bővítés:
-  - Lenovo M920Q beszerzése
-  - További SSD-k vásárlása a tároláshoz és a clusterhez
+> 🎯 **Célom**: fejleszteni szakmai kompetenciáimat és bemutatni, hogy IT rendszergazdai vagy DevOps gyakornoki pozícióban azonnal hozzá tudok járulni csapatodhoz.
 
 ---
 
-## Módszertan és tanulási folyamat
+## 🛠️ Alap technológiák és konfigurációk
 
-Minden felmerülő problémát önállóan oldottam meg, angol nyelvű fórumok, cikkek, YouTube és Udemy videók segítségével. Törekedtem arra, hogy ne csak a hibák megoldását találjam meg, hanem az okokat is megértsem, ezáltal biztosítva, hogy a jövőben hasonló problémákkal hatékonyan tudjak szembenézni.
-
----
-
-## Használt technológiák és eszközök
-
-- Virtualizáció: *Proxmox VE*, *XCP-ng*, *VMware Workstation Pro*
-- Operációs rendszerek: *CentOS 9 Stream*, *Ubuntu 22.04*, *Windows 11*, *Windows Server 2019*
-- Automatizálás: *Ansible*, *Semaphore*
-- Hálózat: VPN, *BIND9*, *Pi-hole*, *Cloudflare*
-- Backup & Recovery: *Clonezilla*, *Proxmox Backup Server*
-- Felhasználókezelés: *FreeIPA*, *FreeRadius*
+| Terület              | Használt eszközök, projektek                       |
+|----------------------|---------------------------------------------------|
+| **Virtualizáció**     | Proxmox VE (2 gépes cluster), LXC, KVM VM-ek      |
+| **Hálózat és tűzfal** | pfSense/OPNsense, VLAN-ok, DHCP, DNS (Bind9)      |
+| **Webszolgáltatások** | Nginx Proxy Manager + Cloudflare DNS               |
+| **Monitorozás**       | Zabbix – testreszabott host metric-ek, grafikonok|
+| **Automatizálás**     | Ansible playbook-ok: telepítés, konfigurálás      |
+| **Biztonság és mentés**| Fail2ban, Proxmox Backup Server, snapshot kezelések|
+| **Tárhely, fájlkezelés** | Nextcloud LXC konténerrel                        |
 
 ---
 
-Ha érdekelnek a részletes konfigurációk vagy kérdésed van, bátran keress meg!
+## 🔍 Részletes projektpéldák
+
+- **DNS szerver telepítése:** Bind9 használata belső hálózati névfeloldásra, automatizálva Ansible-lel.
+- **Webproxy beállítása:** Nginx Proxy Manager konténerrel több aldomain kezelése, SSL automatizálás Cloudflare-rel.
+- **Monitorozás:** Zabbix hostokhoz grafikonok, riasztások, host discovery, Ansible-lel frissítve.
+- **Backup rendszer:** Proxmox mentések beállítása Proxmox Backup Server + snapshot stratégia, tesztelt restore-okkal.
+- **Ansible automation:** infrastruktúra kiépítése és frissítése 10+ VM-en és LXC-n egyetlen playbookkal.
 
 ---
+
+## 🖼️ Projekt képernyőképek (screenshots)
+
+A projekt mappában található `screenshots/` könyvtárban elérhetőek képernyőképek, többek között:
+
+- Zabbix dashboard hostokkal és riasztásokkal
+- Ansible futtatások, telepítési lépések
+- Proxmox interfész VM/LXC listával
+- Nginx Proxy Manager és Cloudflare beállítások
+- Nextcloud bejelentkezési és fájlkezelő felülete
+
+---
+
+## 🔮 Jövőbeli tervek
+
+- Konténer-orchesztráció (Docker Swarm vagy Kubernetes tanulása, bevezetése)
+- Enterprise hálózatépítés (Windows Server + Active Directory + Samba integráció)
+- Jogosultság és naplózás fejlesztése (többrétegű jogosultságkezelés, tűzfal-logok feldolgozása)
+- Webes monitoring dashboard fejlesztése (pl. Grafana alapú vizualizáció)
+
+---
+
+## 🌟 Mit mutatok meg ezzel a projekttel?
+
+- Valós, komplex rendszert építettem fel – nem csak “Hello World”, hanem teljes IP-alapú belső hálózat, szolgáltatások és automatizált üzemeltetés.
+- Profi GitHub struktúra, részletes dokumentáció, technológiai háttér és jövőbeli célkitűzések.
+- Széleskörű technológiai tapasztalat: virtualizáció, hálózat, tárolás, automatizálás, monitorozás, biztonság.
+- Proaktív tanulási attitűd, folyamatos fejlesztés.
+
+---
+
+## 🧭 Használat álláskereséshez
+
+1. A GitHub profilodon vagy LinkedIn-en linkeld be a repót.
+2. Interjún mutasd be a topológiát, az automatizálási és monitorozási megoldásokat.
+3. Emeld ki, hogy az Ansible, Zabbix, Proxmox Backup Server hármasával hogyan oldod meg az üzemeltetési feladatokat.
+
+---
+
+## 📫 Kapcsolat
+
+- GitHub: [github.com/RolfSF68/homelab](https://github.com/RolfSF68/homelab)  
+- E-mail: *itt az e-mail címed*  
+- LinkedIn: *itt a LinkedIn profilod linkje*
+
+---
+
+*Ez a projekt bizonyítéka annak, hogy komolyan veszem a szakmai fejlődést, és képes vagyok gyakorlati tudással támogatni egy IT csapatot.*
+
+---
+
+**Köszönöm, hogy megnézted!**
 
