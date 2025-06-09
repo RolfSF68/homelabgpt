@@ -3,7 +3,9 @@
 ## Bemutatkozás
 Ez a projekt egy önállóan kialakított homelabot mutat be, amelynek célja egy vállalati környezet modellezése.
 
-> 🎯 **Célom**: Célom az elméleti tudásom mellett a gyakorlati ismeretek mélyítése, új technológiák kipróbálása és megismerése. A felhasznált technológiák és szolgáltatások kiválogatásánál a fő tényezők között említeném a trendeket, hogy mennyire népszerűek most a munkáltatók körében, és a büdzsé. További célom volt, hogy az álláspályázatoknál is előnyömre válhat, ha a munkáltatónak betekintést engedek, hogy milyen tudásom van, így könnyebben tudják eldönteni, hogy engem keresnek-e.
+> 🎯 **Célom**:
+Az elméleti tudásom mellett gyakorlati tapasztalat szerzése, új technológiák kipróbálása és megismerése. A technológiák kiválasztásánál figyelembe vettem a jelenlegi munkaerőpiaci trendeket, de az erre rendelkezésemre álló büdzsét is.
+Emellett fontos szempont volt, hogy az álláspályázatok során a munkáltatók könnyebben megismerhessék a tudásomat, segítve így a kiválasztási folyamatot.
 
 ---
 
