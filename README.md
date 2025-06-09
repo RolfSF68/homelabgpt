@@ -84,7 +84,8 @@ Emellett fontos szempont volt, hogy az álláspályázatok során a munkáltató
 
 - Pi-hole
 <img src="https://github.com/user-attachments/assets/688a9e5b-2ae9-4ff7-80dc-de0ca6e5379f" alt="Kép leírása" width="200"/>
-
+- Részlet a BIND9 db.otthoni.local zónafájljáról
+<img src="https://github.com/user-attachments/assets/f9ab28e9-3c35-4b7e-b2ea-a1fdb786f6c7" alt="Kép leírása" width="200"/>
 
 ---
 
