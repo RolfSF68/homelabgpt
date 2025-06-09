@@ -9,7 +9,7 @@ Emellett fontos szempont volt, hogy az álláspályázatok során a munkáltató
 
 ---
 
-## 🛠️ Felhasznált technológiák
+## 🛠️ Felhasznált technológiák általános áttekintése
 
 | Terület              | Használt eszközök, projektek                       |
 |----------------------|---------------------------------------------------|
@@ -34,7 +34,7 @@ Emellett fontos szempont volt, hogy az álláspályázatok során a munkáltató
 
 ---
 
-## 🔍 Részletes projektpéldák
+## 🔍 Felhasznált technológiák részletesebb ismertetése
 
 - **DNS szerver telepítése:** Bind9 használata belső hálózati névfeloldásra, automatizálva Ansible-lel.
 - **Webproxy beállítása:** Nginx Proxy Manager konténerrel több aldomain kezelése, SSL automatizálás Cloudflare-rel.
@@ -55,6 +55,7 @@ Emellett fontos szempont volt, hogy az álláspályázatok során a munkáltató
 - **IDS/IPS továbbfejlesztése**: CrowdSec beállítása Nginx Proxy Managerre, és Suricata implementálása.
 - **Biztonság és mentés bővítése**: Rsync, Rclone megismerése. Bareos és Kopia alkalmazása ezidáig sikeretelen volt, a klienseket nem tudom bevonni, ezt megoldani.
 - **Ethernet autentikáció Radius szerverrel**: 802.1x port based autentikációt támogató switch vásárlása, és beállítani, hogy a Radius felügyeletet a portokon.
+- **DNSSEC** 
 
 ---
 
