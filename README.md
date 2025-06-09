@@ -68,13 +68,11 @@ Emellett fontos szempont volt, hogy az álláspályázatok során a munkáltató
 
 ---
 
-## 🖼️ Projekt képernyőképek (screenshots)
+## 🖼️ Projekt képernyőképek
 
-A projekt mappában található `screenshots/` könyvtárban elérhetőek képernyőképek, többek között:
-
-- Zabbix dashboard hostokkal és riasztásokkal
-- Ansible futtatások, telepítési lépések
 - Proxmox interfész VM/LXC listával
+![kép](https://github.com/user-attachments/assets/dc74b6b3-f6ba-4043-96c0-ea0832ec8c84)
+
 - Nginx Proxy Manager és Cloudflare beállítások
 - Nextcloud bejelentkezési és fájlkezelő felülete
 
