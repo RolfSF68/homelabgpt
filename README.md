@@ -23,7 +23,7 @@ Emellett fontos szempont volt, hogy az álláspályázatok során a munkáltató
 | **Reverse proxy** | Nginx Proxy Manager               |
 | **Monitorozás**       | Zabbix|
 | **Automatizálás**     | Ansible+Semaphore, Cron+Cronicle       |
-| **Biztonság és mentés**| Proxmox Backup Server, Clonezilla, Rclone, Nextcloud|
+| **Biztonság és mentés**| Proxmox Backup Server, Clonezilla, Rclone, Nextcloud, FreeFileSync|
 | **Reklámszűrés** | Pi-hole        |
 | **APT cache proxy** | APT-Cache-NG        |
 | **Dashboard** | Homarr        |
