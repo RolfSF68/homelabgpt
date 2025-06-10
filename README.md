@@ -1,7 +1,9 @@
 # 🏡 Homelabom rövid összefoglalója (folyamatosan bővül)
 
 ## Bemutatkozás
-Ez a projekt egy önállóan kialakított homelabot mutat be, amelynek célja egy vállalati környezet modellezése. A konkrét megvalósításhoz és a mögöttes elmélet elsajátításához Udemy-n vásárolt videók, Youtube videók, angol nyelvű cikkek és fórumok sokat segítettek. Elkezdtem használni a ChatGPT is, a gyorsabb információgyűjtés érdekében, amit hasznosnak találtam, de tudni kell jól kérdezni, és fenntartásokkal kezelni a válaszokat.
+Ez a projekt egy önállóan kialakított homelabot mutat be, amelynek célja egy vállalati környezet modellezése. A konkrét megvalósításhoz és a mögöttes elmélet elsajátításához Udemy-n vásárolt videók, Youtube videók, angol nyelvű cikkek és fórumok sokat segítettek. Elkezdtem használni a ChatGPT is, amit hasznosnak találtam, de tudni kell jól kérdezni, és fenntartásokkal kezelni a válaszokat,  de az információgyűjtést egyértelműen felgyorsítja.
+
+❗Részletes dokumentációt készítettem az installálási folyamatokról, konfigurációs fálokról, felmerülő problémákról és megoldásaikról, de ezeket nem töltöttem fel ide! 
 
 > 🎯 **Célom**:
 Az elméleti tudásom mellett gyakorlati tapasztalat szerzése, új technológiák kipróbálása és megismerése. A technológiák kiválasztásakor figyelembe vettem a jelenlegi munkaerőpiaci trendeket, de az erre rendelkezésemre álló büdzsét is.
