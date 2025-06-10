@@ -55,17 +55,17 @@ Emellett fontos szempont volt, hogy az álláspályázatok során a munkáltató
 
 ## 🔮 Jövőbeli tervek (folyamatosan bővöl)
 
-- **Nyitás Windows irányba** (Windows Server + Active Directory).
 - **Monitorozás továbbfejlesztése** Grafana + Prometheus megismerése. Zabbix-al elkezdtem ismerkedni, de az Udemy videót félbehagytam, ezt befejezni.
-- **Cloud computing elmélyítése** (AWS, Azure).
+- **Cloud computing elmélyítése:** Érdekel ez a terület, szeretném jobban megismerni (AWS, Azure).
 - **Cloud storage** (Hetzned vagy Pcloud).
-- **Ceph:** Három darab 2,5"-os SSD és egy Lenovo M920q Tiny PC beszerzése van tervben, amelyre Proxmoxot telepítek, hogy a meglévő gépeimmel együtt háromtagú klasztert alakíthassak ki. A célom, hogy a három SSD-t Ceph-be integráljam.
+- **Magas rendelkezésre állás:** Három darab 2,5"-os SSD és egy Lenovo M920q Tiny PC beszerzése van tervben, amelyre Proxmoxot telepítek, hogy a meglévő gépeimmel együtt háromtagú **klasztert** alakíthassak ki. A célom, hogy a három SSD-t **Ceph**-be integráljam.
 - **DIY PiKVM:**  KVM over IP hasznos lenne, ám az olcsóbb alternatívája, a PiKVM is igen költséges, ha készen veszi az ember, így én megamtól építeném meg. Venni szeretnék használtan RPI 4-et, amit megosztana a három gép között egy USB switch és HDMI switch. Az olcsóbb switch-ek csatornaváltása gombbal történik, én a gombot lecserélném egy ESP32-vel vezérelt tranzisztorra. Ehhez persze fontos, hogy a switch-ek könnyen szétszedhetőek legyenek, nagyobb roncsolás nélkül. Kicsit költségesebb, ha három RPI4-et veszek, minden géphez egyet, így nem kell USB switch és HDMI switch, és egyszerre mindhárom gép vezérelhető böngészőből, nem kell váltani köztük.
 - **IDS/IPS továbbfejlesztése:** CrowdSec beállítása Nginx Proxy Managerre, és Suricata implementálása.
 - **Biztonság és mentés bővítése:** Rsync, Rclone megismerése. Bareos és Kopia alkalmazása ezidáig sikeretelen volt, a klienseket nem tudom bevonni, ezt megoldani.
 - **Ethernet autentikáció Radius szerverrel:** 802.1x port based autentikációt támogató switch vásárlása, és beállítani, hogy a Radius felügyeletet a portokon.
 - **DNSSEC** 
-
+- **Python** programozási nyelv mélyebb megismerése.
+- 
 ---
 
 ## 🖼️ Projekt képernyőképek
