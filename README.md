@@ -67,7 +67,7 @@ Emellett fontos szempont volt, hogy az álláspályázatok során a munkáltató
 - **Komolyabb switch vásárlása:** Ki szeretném próbálni a 802.1x port based autentikációt és beállítani a Radius felügyeletet a portokon. DHCP snooping és port security által még tovább növelhetném a biztonságot.
 - **DNSSEC** 
 - **Python** programozási nyelv mélyebb megismerése.
-- 
+
 ---
 
 ## 🖼️ Projekt képernyőképek
