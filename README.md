@@ -64,7 +64,7 @@ Emellett fontos szempont volt, hogy az álláspályázatok során a munkáltató
 - **DIY PiKVM:**  KVM over IP hasznos lenne, ám az olcsóbb alternatívája, a PiKVM is igen költséges, ha készen veszi az ember, így én megamtól építeném meg. Venni szeretnék használtan RPI 4-et, amit megosztana a három gép között egy USB switch és HDMI switch. Az olcsóbb switch-ek csatornaváltása gombbal történik, én a gombot lecserélném egy ESP32-vel vezérelt tranzisztorra. Ehhez persze fontos, hogy a switch-ek könnyen szétszedhetőek legyenek, nagyobb roncsolás nélkül. Kicsit költségesebb, ha három RPI4-et veszek, minden géphez egyet, így nem kell USB switch és HDMI switch, és egyszerre mindhárom gép vezérelhető böngészőből, nem kell váltani köztük.
 - **IDS/IPS továbbfejlesztése:** CrowdSec beállítása Nginx Proxy Managerre, és Suricata implementálása.
 - **Biztonság és mentés bővítése:** Rsync, Rclone megismerése. Bareos és Kopia alkalmazása ezidáig sikeretelen volt, a klienseket nem tudom bevonni, ezt megoldani.
-- **Ethernet autentikáció Radius szerverrel:** 802.1x port based autentikációt támogató switch vásárlása, és beállítani, hogy a Radius felügyeletet a portokon.
+- **Komolyabb switch vásárlása:** Ki szeretném próbálni a 802.1x port based autentikációt és beállítani a Radius felügyeletet a portokon. DHCP snooping és port security által még tovább növelhetném a biztonságot.
 - **DNSSEC** 
 - **Python** programozási nyelv mélyebb megismerése.
 - 
